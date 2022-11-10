@@ -17,8 +17,7 @@ def get_lyrics(token):
     genius.excluded_terms = ["(Live)"]
 
     data = []
-    genres = ['rap', 'hip-hop', 'country',
-                'rock', 'pop', 'r-b', 'metal', 'jazz']
+    genres = ['country']
 
     k = 1
     widgets = ['Getting lyrics: ', progressbar.Percentage(), ' ',
@@ -41,7 +40,7 @@ def get_lyrics(token):
 
     df = pd.DataFrame(
         data, columns=['artist', 'title', 'lyrics', 'genre', 'url'])
-    df.to_csv('lyrics.csv', index=False, sep='#')
+    df.to_csv('countryLyrics.csv', index=False, sep='#')
 
     bar.finish()
 
