@@ -9,5 +9,6 @@ This folder is composed by:
 * lyrics.csv : resulting csv file from the scrapping : it contains all the lyrics we used   
 * notebook.ipynb : contains all the process from data cleaning to the modeling results. 
 
-Warning : some of libraries have to be installed before launching the notebook (e.g langdetect, nltk) 
+Warning : some of libraries have to be installed before launching the notebook if the user's computer is not previously equipped (e.g langdetect, nltk). For that the following command has to be executed : ```  pip install [name of the package] ``` 
     
+  
