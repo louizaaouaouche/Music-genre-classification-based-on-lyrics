@@ -7,6 +7,7 @@ This folder is composed by:
 * Scrapping:
   * geniusScrapping.py : file containing the scrapping method code used through Genius website.
 * datasets/genius-scrap.csv : resulting csv file from the scrapping : it contains all the lyrics we used*
+* stopwords.json : the stopword list we used
 * notebook.ipynb : contains all the process from data cleaning to the modeling results. 
 
 This is the [Kaggle dataset](https://www.kaggle.com/datasets/neisse/scrapped-lyrics-from-6-genres) we used. Download them in datasets/kaggle-lyrics-data.csv and datasets/kaggle-artists-data.csv
