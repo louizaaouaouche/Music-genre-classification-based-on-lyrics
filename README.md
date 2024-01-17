@@ -1,4 +1,5 @@
-# SD201 Data Mining and Machine Learning Project
+# Music genre classification based on lyrics
+### SD201 Data Mining and Machine Learning Project
 > TEAM MEMBERS : Farah JABRI, Yassine BENBIHI, Louiza AOUAOUCHE & Tristan PERROT
 
 This project called "Music genre classification based on lyrics" has been realized only in an academic context by students of Télécom Paris.
